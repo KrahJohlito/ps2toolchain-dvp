@@ -11,7 +11,7 @@ trap onerr ERR
 ## Download the source code.
 REPO_URL="https://github.com/ps2dev/binutils-gdb.git"
 REPO_FOLDER="binutils-gdb"
-BRANCH_NAME="dvp-v2.14"
+BRANCH_NAME="dvp-v2.14-2023"
 if test ! -d "$REPO_FOLDER"; then
   git clone --depth 1 -b "$BRANCH_NAME" "$REPO_URL"
 else
